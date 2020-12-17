@@ -3,7 +3,6 @@ import MarvelAPIService from '../service/MarvelAPIService';
 
 const router = Router();
 
-/* GET home page. */
 router.get('/', async function(req, res, next) {
   const timestamp = Date.now();
 
@@ -15,7 +14,6 @@ router.get('/', async function(req, res, next) {
   }
 });
 
-/* GET home page. */
 router.get('/:id', async function(req, res, next) {
   const timestamp = Date.now();
   try {

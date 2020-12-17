@@ -1,5 +1,5 @@
 export default {
-  PORT: process.env['NODE_ENV'] || 8080,
+  PORT: process.env['PORT'] || 8080,
   MARVEL_BASE_URL: process.env['MARVEL_BASE_URL'],
   MARVEL_GET_CHARACTERS: process.env['MARVEL_GET_CHARACTERS'],
   MARVEL_GET_CHARACTER: process.env['MARVEL_GET_CHARACTER'],
