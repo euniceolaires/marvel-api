@@ -3,8 +3,11 @@ import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 import swaggerUi from 'swagger-ui-express';
 import swaggerJSDoc from 'swagger-jsdoc';
+// import dotenv from 'dotenv-safe';
+// dotenv.config();
 
 import characterRouter from './routes/character';
+
 
 const options = {
   swaggerDefinition: {

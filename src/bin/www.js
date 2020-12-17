@@ -3,7 +3,11 @@
 /**
  * Module dependencies.
  */
-
+// import 'dotenv-safe/config';
+import dotenv from 'dotenv-safe';
+// dotenv.config();
+// import "../config";
+// require('dotenv').config()
 import app from '../app';
 import debugLib from 'debug';
 import http from 'http';
@@ -18,6 +22,7 @@ app.set('port', port);
 /**
  * Create HTTP server.
  */
+
 
 var server = http.createServer(app);
 
